@@ -22,8 +22,8 @@ This project analyzes customer churn patterns using a publicly available banking
 The dataset was obtained from Kaggle and is used fro educational purposes.
 
 ## Questions Answered
--Which country has highest churn rate?
--Which age groups churn the most?
--Does credit score affect churn?
--Do active members churn less frequently?
--How does the number of products affect churn?
+- Which country has highest churn rate?
+- Which age groups churn the most?
+- Does credit score affect churn?
+- Do active members churn less frequently?
+- How does the number of products affect churn?
