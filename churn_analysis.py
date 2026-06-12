@@ -47,7 +47,7 @@ df["credit_category"]=np.select(
     df["credit_score"]>=750
     ],
     ["Poor","Average","Good","Excellent"],
-    default="Unkown"
+    default="Unknown"
     )
 
 print(df[["age","age_group","balance","balance_cat","credit_category"]].head())
@@ -65,7 +65,7 @@ print("Average credit score by churn:")
 print(df.groupby("churn")["credit_score"].mean())
 print("\n")
 
-print("Average salary by churn")
+print("Average salary by churn:")
 print(df.groupby("churn")["estimated_salary"].mean())
 print("\n")
 
